@@ -1,0 +1,13 @@
+.back{
+    background-image: url(https://www.blog-n97.fr/wp-content/uploads/2022/09/telesecretariat.jpg);
+    background-repeat: no-repeat;
+    padding: 55% 30%;
+    color: black;
+    background-size:cover ;
+}
+
+@media (hover: hover) {
+    a:hover {
+      background: yellow;
+            }
+          }

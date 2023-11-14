@@ -1,0 +1,27 @@
+.back{
+    background-image: url("https://www.technopole-anticipa.com/wp-content/uploads/2020/07/filiere_numerique.jpg");
+    background-repeat: no-repeat;
+    padding:40% 10% ;
+    background-size: cover;
+    color: white;
+}
+.back2{
+    text-align: right;
+    font-weight: 900;
+    animation: 5s ease-in-out 0.1s 1 running slidein;
+    animation-name: slidein;
+}
+@media (hover: hover) {
+    a:hover {
+      background: yellow;
+    }
+  }
+  @keyframes slidein {
+    from {
+      transform: rotate(0);
+    }
+  
+    to {
+      transform: rotate(360deg)
+    }
+  }
